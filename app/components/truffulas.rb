@@ -1,4 +1,4 @@
-class Truffulas < Netzke::Basepack::Tree
+class Truffulas < Netzke::Tree::Base
   def configure config
     super
     config.model = 'Truffula'
@@ -6,6 +6,7 @@ class Truffulas < Netzke::Basepack::Tree
       {name: :title, xtype: :treecolumn},
       :count,
       :under_scored,
+      :created_at
     ]
     config.root_visible = false
   end

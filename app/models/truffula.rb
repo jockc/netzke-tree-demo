@@ -1,5 +1,8 @@
 class Truffula < ActiveRecord::Base
   class VirtualRoot
+    def self.primary_key
+      'id'
+    end
     def id
       'root'
     end

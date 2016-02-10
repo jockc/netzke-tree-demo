@@ -4,10 +4,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Netzke - insure that everything is latest from github
-gem 'netzke', github: 'netzke/netzke'
-gem 'netzke-basepack', github: 'netzke/netzke-basepack'
-gem 'netzke-core', github: 'netzke/netzke-core'
-gem 'netzke-testing', github: 'netzke/netzke-testing'
+gem 'netzke', '~> 1.0'
+gem 'netzke-basepack', '~> 1.0'
+gem 'netzke-core', '~> 1.0'
+gem 'netzke-testing', '~> 1.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
